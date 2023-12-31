@@ -5,4 +5,6 @@ The user can select the data, draw a grid on the graph and add a scaling factor 
 
 When plotting, the X- and Y-axes legends and scales do not overlap and are at the correct interval for the plotted data. The accepted data format for the program is a text file (.txt), where the X and Y values are separated by a space.
 
+My program has four different classes. Alustus-class initialize the whole program for making visualizations. It has multiple methods which are crucial for the whole program. Grafiikka-class creates a view that allows the user to enter the necessary information for drawing a graph, i.e. this class is part of the program's user interface. The class GraafiItem creates various elements to be drawn in the pattern to be drawn, such as circles, lines and squares, and thus implements the user interface of the program. The last class is GraafiView, which creates a view (scene) for the figure to be drawn, adds to it the elements of the class GraafiItem and adds the text sections that come to the chart such as titles, axis legends and the average and standard deviation. This class completes and creates the graph's graphical user interface/view.
+
 The technologies I used were based on the instructions of the assignment; for instance, almost all the Python libraries were forbidden.
